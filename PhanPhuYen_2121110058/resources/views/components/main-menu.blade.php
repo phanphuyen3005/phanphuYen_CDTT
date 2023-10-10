@@ -18,6 +18,10 @@
                 @endforeach
             </ul>
         </div>
-        
+        <div style="cursor: pointer;">
+            
+            <i class="fa-solid fa-cart-shopping"></i>
+            gio hang
+        </div>
     </div>
 </nav>

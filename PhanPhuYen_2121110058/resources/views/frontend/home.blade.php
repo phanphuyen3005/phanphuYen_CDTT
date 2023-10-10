@@ -12,12 +12,12 @@
                         <li><a href="#">NÓN SƠN</a></li>
                         <li><a href="#">NÓN TAI BÈO</a></li>
                         <li><a href="#">NÓN GUCCI</a></li>
-                        <li><a href="#">NÓN LÁ</a></li>
+                        <li><a href="#">NÓN 3/4</a></li>
                     </ul>
                 </div>
             </div>
                 @foreach ($list_category as $cat)
-                <x-product-home :cat='$cat' />
+                <x-product-home :cat='$cat' />  
                 @endforeach
 
             <div class="row mt-5">

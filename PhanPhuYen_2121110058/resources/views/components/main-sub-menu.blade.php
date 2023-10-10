@@ -4,7 +4,7 @@
             aria-expanded="false">{{ $menurow->name }}</a>
         <div class="dropdown-menu" aria-labelledby="dropdown04">
             @foreach ($menus as $menu)
-                <a class="dropdown-item" href="shop.html">{{ $menu->name }}</a>
+                <a class="dropdown-item" href="#">{{ $menu->name }}</a>
             @endforeach
         </div>
     </li>
